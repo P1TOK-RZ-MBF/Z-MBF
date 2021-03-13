@@ -123,7 +123,7 @@ vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
 
-######MASUK######
+######MASUK PELAN PELAN SAYANG######
 def masuk():
 	os.system('clear')
 	print logo
@@ -186,8 +186,8 @@ def ambil_token():
 	os.system ("clear")
 	print logo
 	print 50* "\033[1;94m─"
-	jalan("        \033[1;92mAnda Akan Di Arahkan Ke Youtube ...")
-	os.system('xdg-open https://youtu.be/ViEtoEF7Uiw')
+	jalan("        \033[1;92mAnda Akan Di Arahkan Ke Whatsapp ...")
+	os.system('xdg-open https://api.whatsapp.com/send?phone=+62895639082345&text=Hai Bro,Lu Gans Asli ')
 	time.sleep(2)
 	masuk()
 	
